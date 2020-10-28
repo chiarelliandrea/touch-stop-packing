@@ -1,5 +1,5 @@
 # touch-stop-packing
-An R implementation of a touch-and-stop model of particle packing 
+An R implementation of a touch-and-stop model of particle packing. 
 
 This work is an evolution of my previous work available on Figshare [here](https://doi.org/10.6084/m9.figshare.3839526.v2) and [here](https://doi.org/10.6084/m9.figshare.3839532.v1). The previous code was in MATLAB language; I have now optimised my original code and converted it to R, so it is more broadly available but also better documented.
 
