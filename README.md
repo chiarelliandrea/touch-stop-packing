@@ -9,7 +9,7 @@ My original MATLAB code underpins a few academic articles, which you can find be
 * [Stochastic generation of virtual air pores in granular materials](https://doi.org/10.1007/s10035-015-0585-x)
 * [Generation Of 3D Soil/Asphalt Porosity Patterns For Numerical Modelling](https://dx.doi.org/10.3233/978-1-61499-603-3-1089)
 
-The code seeks to fill up a rectangle with growing circles (also called "particles" in the code), following a "touch-and-stop" model. An example of the code's output is available below, and the repository includes a commented R notebook (html + pdf) and the source code in R.
+The code seeks to fill up a rectangle with growing circles (also called "particles" in the code), following a "touch-and-stop" model. An example of the code's output is available below, and the repository includes a commented R notebook (pdf) and the source code in R.
 
 If you run this code on your machine, the results will always differ - and that’s exactly what I originally set out to achieve. Please note that I am not a professional programmer, so this code may not be perfect or might be improved. As you can see, it works well as things stand, but do get in touch if you have any suggestions.
 
