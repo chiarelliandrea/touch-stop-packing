@@ -11,4 +11,6 @@ My original MATLAB code underpins a few academic articles, which you can find be
 
 The code seeks to fill up a rectangle with growing circles (also called "particles" in the code), following a "touch-and-stop" model. An example of the code's output is available below, and the repository includes a commented R notebook (html + pdf) and the source code in R.
 
-![alt text](https://i.imgur.com/QnF0CLt.png)
+If you run this code on your machine, the results will always differ - and that’s exactly what I originally set out to achieve. Please note that I am not a professional programmer, so this code may not be perfect or might be improved. As you can see, it works well as things stand, but do get in touch if you have any suggestions.
+
+![Sample results](https://i.imgur.com/QnF0CLt.png)
