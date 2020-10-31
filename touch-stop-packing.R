@@ -252,7 +252,7 @@ while (planar_void_ratio[iteration] > target_planar_void_ratio && start_generati
 
 }
 
-plot(c(origin_of_cartesian_axes, rectangle_width), c(origin_of_cartesian_axes, rectangle_height), type = "n", main="All the generations of circles we have grown", xlab="Width", ylab="Heigth", asp=1)
+plot(c(origin_of_cartesian_axes, rectangle_width), c(origin_of_cartesian_axes, rectangle_height), type = "n", main="All the generations of circles we have grown", xlab="Width", ylab="Height", asp=1)
 
 rect(origin_of_cartesian_axes, origin_of_cartesian_axes, origin_of_cartesian_axes+rectangle_width, origin_of_cartesian_axes+rectangle_height, col = "white", border="red")
 
