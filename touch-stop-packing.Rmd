@@ -39,7 +39,7 @@ rectangle_height <- 0.100
 Let's plot the area of interest:
 
 ```{r echo = FALSE}
-plot(c(origin_of_cartesian_axes, rectangle_width), c(origin_of_cartesian_axes, rectangle_height), type = "n", main="Our area of interest", xlab="Width", ylab="Heigth", asp=1)
+plot(c(origin_of_cartesian_axes, rectangle_width), c(origin_of_cartesian_axes, rectangle_height), type = "n", main="Our area of interest", xlab="Width", ylab="Height", asp=1)
 
 rect(origin_of_cartesian_axes, origin_of_cartesian_axes, origin_of_cartesian_axes+rectangle_width, origin_of_cartesian_axes+rectangle_height, col = "white", border="red")
 ```
@@ -73,7 +73,7 @@ centre[,2] <- minimum_radius_seeded+(rectangle_height-2*minimum_radius_seeded)*r
 
 Let's visualise these circles that, effectively, are centres of growth.
 ```{r echo = FALSE, warning = FALSE}
-plot(c(origin_of_cartesian_axes, rectangle_width), c(origin_of_cartesian_axes, rectangle_height), type = "n", main="Our area of interest and the centres of growth", xlab="Width", ylab="Heigth", asp=1)
+plot(c(origin_of_cartesian_axes, rectangle_width), c(origin_of_cartesian_axes, rectangle_height), type = "n", main="Our area of interest and the centres of growth", xlab="Width", ylab="Height", asp=1)
 
 rect(origin_of_cartesian_axes, origin_of_cartesian_axes, origin_of_cartesian_axes+rectangle_width, origin_of_cartesian_axes+rectangle_height, col = "white", border="red")
 
@@ -136,7 +136,7 @@ while (planar_void_ratio[iteration] != planar_void_ratio[iteration-1] && planar_
 Let's see what things look like after the first generation of circles has been grown:
 
 ```{r echo = FALSE, warning = FALSE}
-plot(c(origin_of_cartesian_axes, rectangle_width), c(origin_of_cartesian_axes, rectangle_height), type = "n", main="The first generation of circles we have grown", xlab="Width", ylab="Heigth", asp=1)
+plot(c(origin_of_cartesian_axes, rectangle_width), c(origin_of_cartesian_axes, rectangle_height), type = "n", main="The first generation of circles we have grown", xlab="Width", ylab="Height", asp=1)
 
 rect(origin_of_cartesian_axes, origin_of_cartesian_axes, origin_of_cartesian_axes+rectangle_width, origin_of_cartesian_axes+rectangle_height, col = "white", border="red")
 
@@ -212,7 +212,7 @@ start_generating_new_centres <- 0 # Stop generating new centres, as we have reac
 This is what things look like with a fully grown first generation and seeds for the next generation:
 
 ```{r echo = FALSE, warning = FALSE}
-plot(c(origin_of_cartesian_axes, rectangle_width), c(origin_of_cartesian_axes, rectangle_height), type = "n", main="The first generation of circles we have grown + New centres of growth", xlab="Width", ylab="Heigth", asp=1)
+plot(c(origin_of_cartesian_axes, rectangle_width), c(origin_of_cartesian_axes, rectangle_height), type = "n", main="The first generation of circles we have grown + New centres of growth", xlab="Width", ylab="Height", asp=1)
 
 rect(origin_of_cartesian_axes, origin_of_cartesian_axes, origin_of_cartesian_axes+rectangle_width, origin_of_cartesian_axes+rectangle_height, col = "white", border="red")
 
@@ -270,7 +270,7 @@ while (planar_void_ratio[iteration] > target_planar_void_ratio && start_generati
 Let's look at the circles once again:
 
 ```{r echo = FALSE, warning = FALSE}
-plot(c(origin_of_cartesian_axes, rectangle_width), c(origin_of_cartesian_axes, rectangle_height), type = "n", main="The first and second generations of circles we have grown", xlab="Width", ylab="Heigth", asp=1)
+plot(c(origin_of_cartesian_axes, rectangle_width), c(origin_of_cartesian_axes, rectangle_height), type = "n", main="The first and second generations of circles we have grown", xlab="Width", ylab="Height", asp=1)
 
 rect(origin_of_cartesian_axes, origin_of_cartesian_axes, origin_of_cartesian_axes+rectangle_width, origin_of_cartesian_axes+rectangle_height, col = "white", border="red")
 
@@ -381,7 +381,7 @@ while (planar_void_ratio[iteration] > target_planar_void_ratio && start_generati
 
 Let's visualise all the other generations of circles grown to meet the "target_planar_void_ratio" we have defined at the top:
 ```{r echo = FALSE, warning = FALSE}
-plot(c(origin_of_cartesian_axes, rectangle_width), c(origin_of_cartesian_axes, rectangle_height), type = "n", main="All the generations of circles we have grown", xlab="Width", ylab="Heigth", asp=1)
+plot(c(origin_of_cartesian_axes, rectangle_width), c(origin_of_cartesian_axes, rectangle_height), type = "n", main="All the generations of circles we have grown", xlab="Width", ylab="Height", asp=1)
 
 rect(origin_of_cartesian_axes, origin_of_cartesian_axes, origin_of_cartesian_axes+rectangle_width, origin_of_cartesian_axes+rectangle_height, col = "white", border="red")
 
